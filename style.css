@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eed2d2;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #daf395;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #1d6bb4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #1d6bb4;
+}
+
+.filters button {
+    margin: 4px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.task button:hover {
+    opacity: 0.8;
+}
+
+.task button:nth-child(1) { /* Complete/Undo Button */
+    background-color: #1d6bb4;
+    color: white;
+}
+
+.task button:nth-child(2) { /* Edit Button */
+    background-color:#1d6bb4;
+    color: white;
+}
+
+.task button:nth-child(3) { /* Delete Button */
+    background-color: red;
+    color: white;
+}
+
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+.task div strong {
+    color: #007bff;
+}
+
+.task div {
+    margin-bottom: 5px;
+}
+
+.task .delete-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.task .delete-btn:hover {
+    background-color: darkred;
+}
